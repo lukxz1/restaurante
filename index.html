@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                <img src="img/Culinaria.png" alt="logo" class="imglogo">
+                </a>
+            </div><!--logo-->
+            
+            <h1>Culinaria Diversa</h1>
+
+            <div class="botaocontato">
+                <a href="https://wa.me/5599981260332">
+                    <button>Contato</button>
+                </a>
+            </div><!--botaocontato-->
+        </div><!--interface-->
+    </header>
+    <main>
+    <section>
+            <input id="campo-pesquisa" type="text" placeholder="Digite o nome do Produto">
+            <button onclick="pesquisar()">Pesquisar</button>
+    </section>
+
+    <section class="resultados-pesquisa" id="resultados-pesquisa">
+        
+        <div class="item-resultado">
+            <h2>Pizza</h2>
+            <p class="descricao-meta">A pizza é um prato de origem italiana, feito com uma base de massa coberta com molho de tomate, queijo e diversos ingredientes como carnes, vegetais e especiarias.</p>
+            <a href="https://pt.wikipedia.org/wiki/Pizza" target="_blank">Mais Informações</a>    
+            <img src="img/pizza.png" alt="pizza">         
+        </div>
+        <div class="item-resultado">
+            <h2>Sushi</h2>
+            <p class="descricao-meta">O sushi é um prato japonês que consiste em arroz temperado com vinagre, combinado com peixe cru, frutos do mar ou vegetais, frequentemente servido com molho de soja.</p>
+            <a href="https://pt.wikipedia.org/wiki/Sushi" target="_blank">Mais Informações</a> 
+            <img src="img/sushi.png" alt="sushi">           
+       </div>
+        <div class="item-resultado">
+            <h2>Tacos</h2>
+            <p class="descricao-meta">Os tacos são um prato tradicional mexicano, consistindo em uma tortilla dobrada ou enrolada, recheada com carne, feijão, queijo, alface e outros ingredientes.</p>
+            <a href="https://pt.wikipedia.org/wiki/Taco" target="_blank">Mais Informações</a>     
+            <img src="img/tacos.png" alt="tacos">                              
+        </div>
+        <div class="item-resultado">
+            <h2>Hambúrguer</h2>
+            <p class="descricao-meta">O hambúrguer é um prato popular que consiste em um disco de carne moída, geralmente bovina, servido em um pão, frequentemente acompanhado de queijo, alface, tomate e molhos.</p>
+            <a href="https://pt.wikipedia.org/wiki/Hamb%C3%BArguer" target="_blank">Mais Informações</a>     
+            <img src="img/hamburguer.jpg" alt="hamburguer">                              
+        </div>
+        <div class="item-resultado">
+            <h2>Shawarma</h2>
+            <p class="descricao-meta">Shawarma é um prato do Oriente Médio feito com carne assada em espeto vertical, servida em pão sírio com molhos e vegetais.</p>
+            <a href="https://pt.wikipedia.org/wiki/Xauarma" target="_blank">Mais Informações</a>     
+            <img src="img/Shawarma.jpg" alt="Shawarma">                              
+        </div>
+        <div class="item-resultado">
+            <h2>Curry</h2>
+            <p class="descricao-meta">O curry é um prato de origem indiana, feito com uma mistura de especiarias e ervas, geralmente cozido com carne, legumes ou grãos, e servido com arroz.</p>
+            <a href="https://pt.wikipedia.org/wiki/Curry" target="_blank">Mais Informações</a>     
+            <img src="img/curry.png" alt="curry">                              
+        </div>
+        <div class="item-resultado">
+            <h2>Churrasco</h2>
+            <p class="descricao-meta">O churrasco é um método de cozinhar carne, geralmente em uma grelha ou churrasqueira, popular em várias culturas, especialmente na América Latina.</p>
+            <a href="https://pt.wikipedia.org/wiki/Churrasco" target="_blank">Mais Informações</a>     
+            <img src="img/churrasco.png" alt="churrasco">                              
+        </div>
+        <div class="item-resultado">
+            <h2>Crepe</h2>
+            <p class="descricao-meta">O crepe é uma fina panqueca de origem francesa, que pode ser recheada com ingredientes doces ou salgados, como frutas, chocolate, queijo ou presunto.</p>
+            <a href="https://pt.wikipedia.org/wiki/Crepe" target="_blank">Mais Informações</a>     
+            <img src="img/crepe.jpg" alt="crepe">                              
+        </div>
+        <div class="item-resultado">
+            <h2>Bolo de Chocolate</h2>
+            <p class="descricao-meta">O bolo de chocolate é uma sobremesa feita com massa de bolo que contém chocolate, frequentemente coberta com glacê de chocolate ou recheios variados.</p>
+            <a href="https://pt.wikipedia.org/wiki/Bolo_de_chocolate" target="_blank">Mais Informações</a>     
+            <img src="img/bolo.png" alt="bolo">                              
+        </div> 
+        <div class="item-resultado">
+            <h2>Gelato</h2>
+            <p class="descricao-meta">O gelato é um tipo de sorvete italiano, conhecido por sua textura cremosa e sabores intensos, feito com leite, açúcar e ingredientes naturais.</p>
+            <a href="https://pt.wikipedia.org/wiki/Gelato" target="_blank">Mais Informações</a>     
+            <img src="img/gelato.jpg" alt="gelato">                              
+        </div>
+        
+    </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Sobre Nós</h3>
+                    <p>No Culinária Diversa, celebramos a riqueza da gastronomia global com pratos autênticos e ingredientes selecionados. Nosso restaurante une sabores do mundo em um ambiente acolhedor, perfeito para explorar novas experiências e compartilhar bons momentos. Venha viver essa jornada culinária com a gente!</p>
+                    <p>Email: contato@seusite.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
